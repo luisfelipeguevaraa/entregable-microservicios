@@ -1,0 +1,11 @@
+http://192.168.1.8:1113/productos
+http://192.168.1.8:1113/actualizarstock
+
+
+
+http://192.168.1.8:3333/cestas
+http://192.168.1.8:3333/compra
+ {
+    "idProducto": 2,
+    "cantidad": 7
+ }

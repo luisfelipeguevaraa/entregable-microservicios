@@ -1,0 +1,15 @@
+CREATE DATABASE IF NOT EXISTS compra CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+
+USE compra;
+
+SET foreign_key_checks = 0;
+
+DROP TABLE IF EXISTS cesta;
+
+CREATE TABLE `cesta` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `IDPRODUCTO` int(11) NOT NULL,
+  `MONTO` double NOT NULL,
+  `CANTIDAD` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=38 DEFAULT CHARSET=latin1;
